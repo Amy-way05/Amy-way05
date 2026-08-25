@@ -3,7 +3,7 @@
 <h3 align="center">AI/ML Engineer · Data Scientist · Applied Researcher</h3>
 
 <p align="center">
-  Published first-author ML researcher with a business foundation.<br>
+  Published first-author ML researcher with a business and applied analytics.<br>
   I build end-to-end pipelines that turn messy data into decisions people trust.
 </p>
 

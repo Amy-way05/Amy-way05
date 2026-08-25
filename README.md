@@ -97,7 +97,7 @@ Plotly · Chart.js · Jupyter · GitHub Pages
 
 ### 👨‍💼 Experience
 
-- **Sports Research Analyst — Ahmedabad University (Jan 2026 – Present):** Built reinforcement learning and Markov Chain models on 13,777 NCAA penalty outcomes; published first-author preprint with a 6-author cross-institutional team.
+- **Sports Research Analyst — AU,NCAA data partnership with Sacred Heart University, CT (Jan 2026 – Present):** Built reinforcement learning and Markov Chain models on 13,777 NCAA penalty outcomes; published first-author preprint with a 6-author cross-institutional team.
 - **Data Analyst, Data for Social Good — Northeastern Roux Institute (Feb – Jun 2026):** Designed a dual-phase AI evaluation framework for Maine nonprofits, combining Kirkpatrick survey methodology with NLP-based text mining.
 
 ### 📖 Publications

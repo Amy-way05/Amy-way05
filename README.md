@@ -21,11 +21,15 @@
 
 ### 💫 Quick Facts
 
-🔬 Currently building: an interactive research dashboard for a published NCAA hockey reinforcement learning study
-📊 Working on: a prior authorization / claim denial prevention tool using RAG over public CMS policy data
-🌱 Currently learning: agentic RAG architectures, evaluation frameworks for LLM-based tools
-💬 Ask me about: Q-learning, Markov Chain modeling, k-means clustering, or turning messy survey data into a segmentation model
-⚡ Fun fact: I came into data science through a business degree, not computer science, so I care as much about the decision a model changes as the model itself
+🔬 Currently building: an interactive research dashboard for a published NCAA hockey reinforcement learning study.
+
+📊 Working on: a prior authorization / claim denial prevention tool using RAG over public CMS policy data.
+
+🌱 Currently learning: agentic RAG architectures, evaluation frameworks for LLM-based tools.
+
+💬 Ask me about: Q-learning, Markov Chain modeling, k-means clustering, or turning messy survey data into a segmentation model.
+
+⚡ Fun fact: I came into data science through a business degree, not computer science, so I care as much about the decision a model changes as the model itself.
 
 ---
 

@@ -3,7 +3,7 @@
 <h3 align="center">AI/ML Engineer · Data Scientist · Applied Researcher</h3>
 
 <p align="center">
-  Published first-author ML researcher with a business and applied analytics.<br>
+  Published first-author ML researcher with a business foundation.<br>
   I build end-to-end pipelines that turn messy data into decisions people trust.
 </p>
 
@@ -19,6 +19,16 @@
 
 ---
 
+### 💫 Quick Facts
+
+🔬 Currently building: an interactive research dashboard for a published NCAA hockey reinforcement learning study
+📊 Working on: a prior authorization / claim denial prevention tool using RAG over public CMS policy data
+🌱 Currently learning: agentic RAG architectures, evaluation frameworks for LLM-based tools
+💬 Ask me about: Q-learning, Markov Chain modeling, k-means clustering, or turning messy survey data into a segmentation model
+⚡ Fun fact: I came into data science through a business degree, not computer science, so I care as much about the decision a model changes as the model itself
+
+---
+
 ### 🔬 Featured Research
 
 <table>
@@ -26,7 +36,7 @@
 <td width="70%">
 
 **Penalty-Kill Personnel Deployment and Offensive-Value Exposure in NCAA Ice Hockey**
-First-author preprint · Q-learning + Markov Chain framework validated across 55 NCAA D1 programmes
+First-author preprint · Q-learning (8-state reward structure, 10,000 iterations) + Markov Chain transition modeling, validated via LOSO cross-validation and 500-game bootstrap resampling across 55 NCAA D1 programmes
 
 [📄 Read on SportRxiv](https://doi.org/10.51224/SportRxiv.972) · [💻 Live Dashboard](https://shu-hockey-intelligence.streamlit.app) · [📁 Repo](https://github.com/Amy-way05/shu-hockey-intelligence)
 
@@ -41,112 +51,54 @@ First-author preprint · Q-learning + Markov Chain framework validated across 55
 
 ---
 
-### 🚀 Projects
+### 🎯 Notable Projects
 
-<table>
-<tr>
-<td width="50%" valign="top">
+- **[Penalty-Kill Decision-Support Framework](https://github.com/Amy-way05/shu-hockey-intelligence):** Reinforcement learning system trained on 13,777 penalty outcomes across 55 D1 programmes. LOSO cross-validation, 500-game bootstrap, Wilcoxon p < 0.0001. Deployed as a live Streamlit research dashboard.
 
-**🏥 [PMI Maine: Membership Analytics](https://github.com/Amy-way05/pmi-maine-membership-analytics)**
-Membership growth and engagement analysis for a regional nonprofit, built on structure-matched synthetic data.
-`R` `ggplot2` `Data Visualization`
+- **[Yelp Business Closure Prediction](https://github.com/Amy-way05/yelp-closure-prediction):** KNN classifier (75.2% accuracy, 89.2% specificity) on 11,266 businesses, paired with TF-IDF text mining and k-means clustering (k=7) across 10,000 reviews to surface qualitative failure patterns the structured model missed.
 
-</td>
-<td width="50%" valign="top">
+- **[Maine Real Estate Price Analysis](https://github.com/Amy-way05/redfin-maine-price-analysis):** Multi-predictor regression on 7,701 listings, improving explained price variance from 10.6% (single predictor) to 34.2% (adjusted R²) through feature engineering and property-type encoding.
 
-**🚢 [Titanic Survival Intelligence](https://github.com/Amy-way05/titanic-survival-analysis)**
-Interactive exploration of survival patterns, paired with a reflection on W.E.B. Du Bois's data portraits.
-`JavaScript` `Chart.js` `EDA`
+- **[Food Intervention Priority Index](https://github.com/Amy-way05/food-intervention-priority-index):** PostgreSQL database integrating 4 federal datasets across 72,531 census tracts, with a composite vulnerability scoring model statistically validated at p < 0.001.
 
-[Live Dashboard →](https://amy-way05.github.io/titanic-survival-analysis/)
+- **[Consumer Segmentation & Motivation Analysis](https://github.com/Amy-way05/consumer-segmentation-analysis):** K-means clustering and chi-square testing on 3,000 survey respondents, identifying a target segment with an 18.8 percentage-point higher purchase intent (p < 0.001).
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**🍽️ [Restaurant Sales Performance](https://github.com/Amy-way05/restaurant-sales-analysis)**
-Eight-year sales analysis covering revenue growth, operational timing, and menu performance.
-`R` `Business Intelligence` `Time Series`
-
-[Live Dashboard →](https://amy-way05.github.io/restaurant-sales-analysis/)
-
-</td>
-<td width="50%" valign="top">
-
-**🛒 [Grocery Loyalty Database Design](https://github.com/Amy-way05/grocery-loyalty-dbms-sql-design)**
-Normalized relational database for a multi-store loyalty program with tiered rewards.
-`SQL` `SQLite` `ERD Design`
-
-[Live Dashboard →](https://amy-way05.github.io/grocery-loyalty-dbms-sql-design/)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**⚡ [Power Outage Analysis](https://github.com/Amy-way05/cmp-outage-analysis)**
-Ten hypothesis tests on weather-driven power outages: wind, temperature, and seasonal drivers.
-`R` `Hypothesis Testing` `Statistics`
-
-[Live Dashboard →](https://amy-way05.github.io/cmp-outage-analysis/)
-
-</td>
-<td width="50%" valign="top">
-
-**🏡 [Maine Real Estate Price Analysis](https://github.com/Amy-way05/redfin-maine-price-analysis)**
-Regression analysis of 7,701 listings identifying significant predictors of sale price.
-`R` `Regression` `ANOVA`
-
-[Live Dashboard →](https://amy-way05.github.io/redfin-maine-price-analysis/)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**🧃 [Consumer Segmentation & Motivation Analysis](https://github.com/Amy-way05/consumer-segmentation-analysis)**
-K-means clustering and chi-square testing on 3,000 survey respondents for a food product client.
-`R` `K-Means` `Market Research`
-
-[Live Dashboard →](https://amy-way05.github.io/consumer-segmentation-analysis/)
-
-</td>
-<td width="50%" valign="top">
-
-**⭐ [Predicting Restaurant Closure with Yelp Data](https://github.com/Amy-way05/yelp-closure-prediction)**
-KNN classification and TF-IDF text mining on 11,266 businesses to predict closure risk.
-`R` `NLP` `KNN` `Sentiment Analysis`
-
-[Live Dashboard →](https://amy-way05.github.io/yelp-closure-prediction/)
-
-</td>
-</tr>
-</table>
+- **[Power Outage Analysis](https://github.com/Amy-way05/cmp-outage-analysis):** Ten hypothesis tests on 65 weather-linked outage events, isolating wind speed as the strongest statistically significant driver of outage severity (p = 0.0044).
 
 ---
 
-### 🛠️ Skills
+### 💻 Tech Stack
 
 **Languages & Databases**
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 
 **ML & Statistics**
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-Q-Learning · Markov Chains · Random Forest · XGBoost · Logistic Regression · K-Means · PCA · ANOVA
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+Q-Learning · Markov Chains · Random Forest · XGBoost · Logistic Regression · K-Means · PCA · ANOVA · LASSO
 
 **NLP**
 TF-IDF · Cosine Similarity · VADER Sentiment · Text Mining
 
-**Visualization & Tools**
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-Plotly · Chart.js · Jupyter
+**Visualization & Deployment**
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+Plotly · Chart.js · Jupyter · GitHub Pages
+
+---
+
+### 👨‍💼 Experience
+
+- **Sports Research Analyst — Ahmedabad University (Jan 2026 – Present):** Built reinforcement learning and Markov Chain models on 13,777 NCAA penalty outcomes; published first-author preprint with a 6-author cross-institutional team.
+- **Data Analyst, Data for Social Good — Northeastern Roux Institute (Feb – Jun 2026):** Designed a dual-phase AI evaluation framework for Maine nonprofits, combining Kirkpatrick survey methodology with NLP-based text mining.
+
+### 📖 Publications
+
+- Ravikumar, A., Kaya, T., Artan, N.S., Taber, C., Morris, J.R., Raval, M.S. (2026). *Penalty-kill personnel deployment and offensive-value exposure in NCAA ice hockey: a box-score decision-support framework.* SportRxiv. [doi.org/10.51224/SportRxiv.972](https://doi.org/10.51224/SportRxiv.972)
 
 ---
 

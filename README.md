@@ -29,7 +29,7 @@
 
 💬 Ask me about: Q-learning, Markov Chain modeling, k-means clustering, or turning messy survey data into a segmentation model.
 
-⚡ Fun fact: I came into data science through a business degree, not computer science, so I care as much about the decision a model changes as the model itself.
+⚡ Fun fact: I came into data science through a business and management degree, so I care as much about the decision a model changes as the model itself.
 
 ---
 
